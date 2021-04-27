@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+div,h1,h2,h3,p{
+    font-family: 'Space Mono', monospace;
+}
+h1{
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.main{
+    
+    background-image:url(/img/bg-main.jpg) ;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.perfil-pic{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.perfil p {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+.title{
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Kaushan Script', cursive;
+    transform: rotate(-8deg);
+    padding-top: 20px;
+}
+
+
+.box{
+    color: white;
+    margin:0 auto;
+    left: 37%;  
+    margin-top: 10em;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    
+}
+.perfil{
+    margin-top: 4rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 2.5em;
+}
+
+
+.redes-sociais li{
+    margin:1em 2.5em 0 0;
+    
+}
+.redes-sociais li :hover{
+    color: #ce001baf;
+    transition: .3s;
+}
+
+
+.copyright{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 16px black;
+    padding: 4rem 0 8rem 0;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.about-content{
+    margin-bottom: 2em;
+    display: flex;
+}
+.about h2{
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.info{
+    width: 30%;
+    line-height: 10px;
+    color: #666666;
+
+}
+.info span{
+    font-weight: bold;
+    color: #a50218af;
+    
+}
+.info li{
+    list-style: none;
+    line-height: 3em;
+}
+.about-text h3{
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #a50218af;
+    font-weight: 400;
+}
+.about-text{
+    width: 70%;
+    font-size: 18px;
+    color: #666666;
+}
+.redes-sociais-2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 1.5em;
+}
+
+
+.redes-sociais-2 li{
+    margin:1em 2.5em 0 0;
+    color: #666666;
+    
+}
+.redes-sociais-2 li :hover{
+    color: #a50218af;
+    transition: .3s;
+}
+.resume{
+    height: 100vh;
+}
+.resume h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+
+.progress-bar-html{
+    --progress: 95;
+    height: 20px;
+    padding: 5px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+  }
+  .progress-bar-css{
+    --progress: 90;
+    height: 20px;
+    padding: 5px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+  }
+  .progress-bar-javascript{
+    --progress: 65;
+    height: 20px;
+    padding: 5px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+  }
+  .progress-bar-bootstrap{
+    --progress: 70;
+    height: 20px;
+    padding: 5px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  .progress-bar-html::before{
+    border-radius: 20px;
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background: rgb(67,3,1);
+    background: linear-gradient(90deg, rgba(67,3,1,1) 0%, rgba(121,9,26,1) 27%, rgba(127,9,9,1) 57%, rgba(255,0,0,0.35647762522977944) 100%); 
+  }
+  .progress-bar-css::before{
+    border-radius: 20px;
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background: rgb(67,3,1);
+    background: linear-gradient(90deg, rgba(67,3,1,1) 0%, rgba(121,9,26,1) 27%, rgba(127,9,9,1) 57%, rgba(255,0,0,0.35647762522977944) 100%); 
+  }
+  .progress-bar-javascript::before{
+    border-radius: 20px;
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background: rgb(67,3,1);
+    background: linear-gradient(90deg, rgba(67,3,1,1) 0%, rgba(121,9,26,1) 27%, rgba(127,9,9,1) 57%, rgba(255,0,0,0.35647762522977944) 100%); 
+  }
+  .progress-bar-bootstrap::before{
+    border-radius: 20px;
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background: rgb(67,3,1);
+    background: linear-gradient(90deg, rgba(67,3,1,1) 0%, rgba(121,9,26,1) 27%, rgba(127,9,9,1) 57%, rgba(255,0,0,0.35647762522977944) 100%); 
+  }
+  
+  .skills h3{
+      color: #a50218af;
+      font-size: 28px;
+
+  }
+.services{
+    height: 100vh;
+    width: 100%;
+}
+.services h2{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.service-box{
+    text-align: center;
+    padding: 0 10px;
+}
+.service-box h3{
+    color: #a50218af;
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.service-box p{
+    font-size:18px ;
+}
+.service-box i{
+    color: #666666;
+    padding: 16px 0;
+}
+.hire{
+    color: white;
+    background-color: #a50218af;
+    text-align: center;
+    height: 80vh;
+    margin-top: 40px;
+}
+.hire-content{
+    margin: 0 25% 0 0 25%;
+
+}
+.hire h2{
+    padding:80px 0;
+    font-size: 45px;
+}
+.hire p{
+    padding: 0 240px 60px 240px;
+    font-size: 18px;
+    
+}
+.hire .btn {
+    font-size: 18px;
+    background-color: white;
+    color: #a50218af;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    transition: 0.5s;
+}
+.hire .btn:hover{
+    color: white;
+    background-color:transparent ;
+    border-color: white;
+    font-weight: bold;
+}
+.contato h2{
+    font-size: 45px;
+    padding: 60px 0;
+    text-align: center;
+}
+.form-group{
+    padding: 0 100px;
+}
+.form-group .btn-submit{
+
+    padding: 5px 30px;
+    border: 2.5px solid transparent;
+    font-size: 18px;
+    color: white;
+    background-color: #a50218af;
+    border-radius: 30px;
+    transform: .5s;
+    margin-bottom: 70px;
+}
+.form-group .btn-submit:hover{
+    background-color:#a502187e;
+
+}
+.footer{
+    background-color: #a50218af;
+    height: 20vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.copyright{
+    font-size: 18px;
+}
+@media(max-width: 1024px){
+    .box{
+        left: 32%;
+    }
+    .about{
+        height: 110vh;
+    }
+    
+    .redes-sociais-2 ul li{
+        padding-bottom: 20px;
+    }
+    .services{
+        height: 110vh;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width: 768px){
+    .box{
+        left: 26%;
+    }
+    .info{
+        margin-bottom: 40px;
+    }
+    .about-content{
+        display: grid;
+    }
+    .resume{
+        height: 110vh;
+        margin-top: 160px;
+    }
+    .services{
+        height: 110vh;
+        margin-bottom: 170px;
+    }
+    .hire h2{
+        padding: 50px 0;
+    }
+    .hire p{
+        padding: 0 140px 60px 140px;
+        font-size: 18px;
+    }
+  
+}
+
+@media (max-width : 435px){
+    .box{
+        left: 12%;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .about{
+        height: 130vh;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .redes-sociais-2{
+        margin-bottom: 140px;
+    }
+    .about h2, .resume h2, .services h2, .hire h2{
+        font-size: 38px;
+    }
+    .main-title h2{
+        padding: 0;
+    }
+    .hire p{
+        font-size: 16px;
+        padding: 20px 50px;
+    }
+    .services{
+        height: 200vh;
+    }
+    .form-group{
+        padding: 0 40px;
+    }
+   
+}
+@media (max-width: 375px){
+   
+}
