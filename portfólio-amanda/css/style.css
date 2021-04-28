@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+#home{
+    width: 100%;
+    background-size: cover  ;
+}
+
+.icon-bar {
+    width: 80px; 
+    background-color: #555; 
+    position: fixed;
+    z-index: 1000;
+    top: 60%;
+    right: 0;
+    bottom: 0;
+    display: table;
+    float:right;
+    display: flexbox;
+    box-shadow: 0px 5px 8px #000;
+
+    
+}
+  
+.icon-bar a {
+    display: block; 
+    text-align: center; 
+    padding: 10px; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 3.6rem; 
+    
+}
+  
+.icon-bar a:hover {
+    background-color: #000; 
+}
+  
+
+.navbar h3{
+    padding-left: 2rem;
+}
+#logo-name{
+    font-size: 2.4rem;
+}
+#logo-name span{
+    font-weight: 300;
+}
+.navbar{
+    float: right;
+    height: 7vh;
+    width: 100%;
+    box-shadow: 0px 5px 8px #6d6d6d;
+    background-color:rgba(255, 255, 255, 0.781);
+}
+
+.navbar-nav a{
+    color: black;
+    margin-left: 15px;
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+}
+.navbar-nav a:hover{
+    background-color: #bbbbbb;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+}
+
+#home{
+    background-image: url(../img/cover-bg.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 7vh;
+    height: 93vh;
+    width: 100%;
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+.fadeIn {
+    
+    -webkit-animation: fadeIn 3s ease-in-out;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    width: 50%;
+}
+.fadeIn h1{
+    font-size: 7rem;
+    font-weight: 200;
+} 
+.fadeIn p{
+    font-size: 2.8rem;
+    font-weight: 200;
+}
+.fadeIn button{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding: 5px 20px;
+    transition: .3s;
+    font-size: 1.6rem;
+}  
+.fadeIn button:hover{
+    color: white;
+    background-color: rgba(34, 34, 34, 0.432);
+}
+.projetos{
+    position: absolute;
+    top: 100vh;
+}
+.main-title{
+    padding: 40px 20px 10px 20px;
+    font-size: 2.4rem;
+
+}  
+.hor-line{
+    width: 95vw;
+    border-top: 1px solid rgb(221, 221, 221);
+    margin: 0 20px 40px 20px;
+}
+.projeto-container{
+    display: flex;
+    margin-left: 100px;
+}
+.item-projeto img{
+    width: 363px;
+    height: 242px;
+    margin: 40px 40px;
+    -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+
+ 	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.item-projeto img:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.sobre{
+    position:absolute;
+    top: 160vh;
+}
+.sobre-content{
+    display: flex;
+
+}
+.main-title{
+    padding: 40px 20px 10px 20px;
+}
+.about-p{
+    font-size: 2.5rem;
+    margin-left: 20px;
+    padding-left: 40px;
+    width: 50%;
+    
+}
+.profile-box{
+    width: 420px;
+    margin-left: 40px;
+}
+.profile-box img{
+    width: 420px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+.profile-box h4{
+    color: #979797;
+    font-weight: 350;
+    font-size: 2rem;
+}
+.description{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.profile-box button{
+    font-size: 1.6rem;
+    width: 100%;
+    border-radius: 0;
+    background-color: #dbdbdb;
+    color: black;
+    border: none;
+}
+.profile-box button:hover{
+    background-color: #bbbbbb;
+    color: black;
+}
+.contato{
+    position: relative;
+    top: 270vh;
+}
+form{
+
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+.form-group{
+
+    margin: 15px 0; 
+}
+.form-group input{
+    height: 36px;
+}
+.form-group textarea{
+    height: 200px;
+}
+.form-group input::-webkit-input-placeholder,.form-group textarea::-webkit-input-placeholder{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.form-group .btn-submit{
+    margin-left: 10px;
+    padding: 3px 30px 10px 30px;
+    border: 2.5px solid transparent;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #dbdbdb;
+    border-radius: 0;
+    transform: .5s;
+    margin-bottom: 70px;
+    color: black;
+}
+.form-group .btn-submit:hover{
+    background-color:#bbbbbb;
+
+}
+.footer{
+    position: absolute;
+    background-color: #555;
+    height: 14vh;
+    width: 100%;
+    margin-top: 50px;
+    top: 350vh;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+}
+.copyright{
+    font-size: 1.8rem;
+    color: #dbdbdb;
+    align-items: center;
+
+}
+@media(max-width: 1024px) {
+    
+    .navbar{
+        max-width: 1024px;
+    }
+    .fadeIn h1{
+        font-size: 5rem;
+    }
+    .projeto-container{
+        margin-left: auto ;
+    }
+    .about-p {
+        font-size: 1.8rem;
+    }
+    .footer{
+        top: 360vh;
+    }
+}
+@media(max-width: 768px){
+    .navbar{
+        max-width: 768px;
+    }
+    .contato{
+        top: 320vh;
+    }
+    .about-p{
+        width: 100%;
+        margin-top: 80px;
+    }
+    form {
+        width: 70%;
+    }
+    .footer{
+        top: 420vh;
+    }
+    .footer p{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .fadeIn{
+        top: 30%;
+
+    }
+    .fadeIn h1{
+        font-size: 4rem;
+    }
+    .fadeIn p{
+        font-size: 2rem;
+    }
+    .sobre{
+        top: 260vh;
+    }
+    .profile-box{
+        margin-right: 20px;
+    }
+    .contato{
+        top: 450vh;
+    }
+    .footer{
+        top: 550vh;
+    }
+}
