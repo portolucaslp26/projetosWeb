@@ -10191,6 +10191,13 @@ header.masthead .masthead-subheading > span {
     margin-bottom: 4rem;
   }
 }
+@media (max-width: 500px){
+  header.masthead .masthead-heading{
+  font-size: 1.25rem;
+  word-spacing: 0;
+  letter-spacing: 5px;
+  }
+}
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
