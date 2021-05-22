@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&family=Montserrat:wght@300&family=Ubuntu&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#main-content{
+margin-top: 250px;
+margin-bottom: 200px;
+}
+.title{
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  color: #222c8a;
+  font-weight: bold;
+}
+#form{
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 30px;
+}
+#form input{
+  border-radius: 30px 0 0 30px;
+}
+#form button{
+  border-radius: 0 30px 30px 0;
+  width: 50px;
+}
+#icon-search{
+  font-size: 20px;
+}
+#card-movie{
+  max-width: 350px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 20px;
+}
+#card-movie h3{
+  font-family: 'Ubuntu', sans-serif;
+}
+#card-movie p{
+  font-family: 'Montserrat', sans-serif;
+}
+#detail-btn{
+  width: 80px;
+}
+#nav-brand{
+  font-family: 'Lobster', cursive;
+  color: #222c8a;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 40px;
+}
+#card-detail{
+  width: 380px;
+  margin: 0 0 0 80px;
+  background-color: #f1f1f1;
+
+}
+#img-detail{
+  padding: 10px;
+
+}
+#title-detail{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0 0 10px 10px;
+
+}
+@media (max-width: 1000px){
+  #card-detail{
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  #form-group{
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
